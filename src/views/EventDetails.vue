@@ -13,7 +13,12 @@ export default {
     return {}
   },
   created() {
-    this.$store.dispatch('fetchEvent', this.id)
+    this.$store.dispatch('fetchEvent', this.id).catch(error => {
+      this.$router.push({
+        name: 'ErrorDisplay',
+        params: { error: error }
+      })
+    })
   },
   computed: {
     event() {

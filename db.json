@@ -49,6 +49,16 @@
       "date": "25/06/2022",
       "time": "20hs",
       "organizer": "Guillermo Verón"
+    },
+    {
+      "id": "e9cd1833-fa2e-4225-a30a-c6ee681cdb6b",
+      "category": "nature",
+      "title": "Test 2",
+      "description": "Just a test event",
+      "location": "Asuncion",
+      "date": "24/06/2022",
+      "time": "20:00hs",
+      "organizer": "Guillermo Verón"
     }
   ]
 }
