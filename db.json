@@ -39,6 +39,16 @@
       "date": "30/10/2022",
       "time": "21:00hs",
       "organizer": "Guillermo Verón"
+    },
+    {
+      "id": "d3712469-5432-4280-95af-35a664d015cc",
+      "category": "nature",
+      "title": "San Juan Palomino",
+      "description": "San Juan organizado por el colegio Palomino",
+      "location": "Colegio Palomino",
+      "date": "25/06/2022",
+      "time": "20hs",
+      "organizer": "Guillermo Verón"
     }
   ]
 }
