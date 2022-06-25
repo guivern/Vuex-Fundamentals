@@ -52,5 +52,8 @@ export default createStore({
       }
     }
   },
-  modules: {}
+  modules: {},
+  getters: {
+    // this section is like computer, here you can do filters or calculate before return states
+  }
 })
