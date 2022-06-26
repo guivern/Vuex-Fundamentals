@@ -59,6 +59,26 @@
       "date": "24/06/2022",
       "time": "20:00hs",
       "organizer": "Guillermo Verón"
+    },
+    {
+      "id": "8e3dd723-2a65-41ef-8539-faf7c47b6f48",
+      "category": "community",
+      "title": "Torneo Lancer CR7",
+      "description": "Torneo de fifa con amigos",
+      "location": "Casa de Alfonso",
+      "date": "26/06/2022",
+      "time": "18:00hs",
+      "organizer": "Guillermo Verón"
+    },
+    {
+      "id": "59df4ad2-fc66-4fe0-bb03-3cb6d3a57e6a",
+      "category": "sustainability",
+      "title": "Another Test",
+      "description": "Another event for test",
+      "location": "Asuncion",
+      "date": "26/06/2022",
+      "time": "18:00hs",
+      "organizer": "Guillermo Verón"
     }
   ]
 }

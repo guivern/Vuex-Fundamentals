@@ -1,5 +1,5 @@
 <template>
-  <h1>Events for Good</h1>
+  <h1>Events for {{ user }}</h1>
   <div class="events">
     <EventCard v-for="event in events" :key="event.id" :event="event" />
   </div>
@@ -7,6 +7,7 @@
 
 <script>
 import EventCard from '@/components/EventCard.vue'
+import { mapState, mapActions } from 'vuex'
 export default {
   name: 'EventList',
   components: {
@@ -15,8 +16,11 @@ export default {
   data() {
     return {}
   },
+  methods: {
+    ...mapActions(['fetchEvents'])
+  },
   created() {
-    this.$store.dispatch('fetchEvents').catch(error => {
+    this.fetchEvents().catch(error => {
       this.$router.push({
         name: 'ErrorDisplay',
         params: { error: error }
@@ -24,9 +28,10 @@ export default {
     })
   },
   computed: {
-    events() {
-      return this.$store.state.events
-    }
+    ...mapState(['events', 'user'])
+    // events() {
+    //   return this.$store.state.events
+    // }
   }
 }
 </script>
