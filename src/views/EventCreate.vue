@@ -76,7 +76,7 @@ export default {
       const event = {
         ...this.event,
         id: uuidv4(),
-        organizer: this.user
+        organizer: this.user.userInfo.name
       }
       this.createEvent(event)
         .then(() =>
